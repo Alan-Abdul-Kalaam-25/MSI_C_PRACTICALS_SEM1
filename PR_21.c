@@ -1,7 +1,3 @@
-/*
-WAP to find the largest element in an array using dynamic memory allocationj (malloc(), free()) functions.
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -15,7 +11,6 @@ int main()
     scanf("%d", &n);
 
     arr = (int *)malloc(n * sizeof(int));
-
     if (arr == NULL)
     {
         printf("Memory allocation failed!");
@@ -29,7 +24,6 @@ int main()
     }
 
     largest = arr[0];
-
     for (i = 1; i < n; i++)
     {
         if (arr[i] > largest)
@@ -39,8 +33,6 @@ int main()
     }
 
     printf("The largest element is: %d\n", largest);
-
     free(arr);
-
     return 0;
 }

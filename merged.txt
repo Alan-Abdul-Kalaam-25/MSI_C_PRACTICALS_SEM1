@@ -1,0 +1,6 @@
+Name: alan
+Age: 20
+Salary: 100000.00
+Name: hella
+Age: 500
+Salary: 100.00

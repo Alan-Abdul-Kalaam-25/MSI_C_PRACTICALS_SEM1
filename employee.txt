@@ -1,0 +1,3 @@
+Name: alan
+Age: 20
+Salary: 100000.00
